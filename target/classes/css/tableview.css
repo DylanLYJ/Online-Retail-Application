@@ -1,0 +1,122 @@
+* {
+    -fx-font-family: "sans-serif";
+}
+
+/* for all table view except product */
+.table-view {
+    -fx-background-color: #303030;
+    -fx-table-cell-border-color: #404040;
+    -fx-border-color: transparent;
+    -fx-fixed-cell-size: 50px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #404040;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #404040;
+    -fx-border-color: transparent transparent #505050 transparent;
+    -fx-border-width: 0 0 2px 0;
+}
+
+.table-view .column-header .label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-weight: BOLD;
+    -fx-font-size: 16px;
+}
+
+.table-view .table-row-cell {
+    -fx-border-width: 0 0 2px 0;
+    -fx-background-color: #505050;
+    -fx-border-color: transparent transparent #404040 transparent;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #606060;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 10px;
+}
+
+.table-view .scroll-bar {
+    -fx-background-color: #282828;
+}
+
+.table-view .scroll-bar .thumb {
+    -fx-background-color: #555555;
+    -fx-background-radius: 5;
+}
+
+.table-view .scroll-bar .track {
+    -fx-background-color: #383838;
+}
+
+.table-view .scroll-bar .increment-button, .table-view .scroll-bar .decrement-button {
+    -fx-background-color: #282828;
+}
+
+/* for product table-view */
+.product-table-view {
+    -fx-background-color: #303030;
+    -fx-table-cell-border-color: #404040;
+    -fx-border-color: transparent;
+    -fx-fixed-cell-size: 150px;
+}
+
+.product-table-view .column-header-background {
+    -fx-background-color: #404040;
+}
+
+.product-table-view .column-header, .table-view .filler {
+    -fx-background-color: #404040;
+    -fx-border-color: transparent transparent #4d4d4d transparent;
+    -fx-border-width: 0 0 2px 0;
+}
+
+.product-table-view .column-header .label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.product-table-view .table-row-cell {
+    -fx-border-width: 0 0 2px 0;
+    -fx-background-color: #505050;
+    -fx-border-color: transparent transparent #404040 transparent;
+}
+
+.product-table-view .table-row-cell:hover {
+    -fx-background-color: #606060;
+}
+
+.product-table-view .table-cell {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 10px;
+}
+
+.product-table-view .scroll-bar {
+    -fx-background-color: #282828;
+}
+
+.product-table-view .scroll-bar .thumb {
+    -fx-background-color: #555555;
+    -fx-background-radius: 5;
+}
+
+.product-table-view .scroll-bar .track {
+    -fx-background-color: #383838;
+}
+
+.product-table-view .scroll-bar .increment-button,
+.product-table-view .scroll-bar .decrement-button {
+    -fx-background-color: #282828;
+}

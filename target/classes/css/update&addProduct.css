@@ -1,0 +1,412 @@
+* {
+    -fx-font-family: "sans-serif";
+}
+
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-padding: 10px 25px;
+}
+
+.product-details-section {
+    -fx-padding: 0 35px 0 0;
+}
+
+.return-button {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 20px 20px;
+    -fx-background-insets: 15px 5px;
+    -fx-alignment: center;
+}
+
+.return-button:hover {
+    -fx-background-color: rgba(176, 176, 176, 0.3);
+}
+
+.normal-label {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-padding: 15px 0 0 35px;
+}
+
+.small-label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 15px 0 0 35px;
+}
+
+.radio-button {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-color: rgba(50, 50, 50, 1);
+    -fx-background-radius: 5px;
+    -fx-border-color: #D3D3D3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 3 10px 3 3;
+    -fx-translate-x: 35px;
+}
+
+.radio-button:hover {
+    -fx-background-color: rgba(176, 176, 176, 0.3);
+}
+
+.radio-button:selected {
+    -fx-background-color:  rgba(176, 176, 176, 0.8);
+}
+
+.name-input-field {
+    -fx-background-color: rgba(50, 50, 50, 1);
+    -fx-background-radius: 5px;
+    -fx-border-color: #D3D3D3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-translate-y: 13px;
+    -fx-max-width: 450px;
+    -fx-pref-width: 370px;
+}
+
+.name-input-field:focused {
+    -fx-border-color: white;
+    -fx-background-color: rgba(120, 120, 120, 0.6);
+}
+
+.name-input-field .text-field {
+    -fx-prompt-text-fill: #A9A9A9;
+    -fx-background-radius: 5px;
+}
+
+.price-input-field {
+    -fx-background-color: rgba(50, 50, 50, 1);
+    -fx-background-radius: 5px;
+    -fx-border-color: #D3D3D3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-translate-y: 13px;
+    -fx-max-width: 140px;
+}
+
+.price-input-field:focused {
+    -fx-border-color: white;
+    -fx-background-color: rgba(120, 120, 120, 0.6);
+}
+
+.price-input-field .text-field {
+    -fx-prompt-text-fill: #A9A9A9;
+    -fx-background-radius: 5px;
+}
+
+.stock-input-field {
+    -fx-background-color: rgba(50, 50, 50, 1);
+    -fx-background-radius: 5px;
+    -fx-border-color: #D3D3D3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-translate-y: 13px;
+    -fx-max-width: 128px;
+    -fx-translate-x: 3px;
+}
+
+.stock-input-field:focused {
+    -fx-border-color: white;
+    -fx-background-color: rgba(120, 120, 120, 0.6);
+}
+
+.name-input-field .text-field {
+    -fx-prompt-text-fill: #A9A9A9;
+    -fx-background-radius: 5px;
+}
+
+.error-message {
+    -fx-text-fill: red;
+    -fx-font-size: 10px;
+    -fx-translate-x: 35px;
+}
+
+.textarea-input-field {
+    -fx-background-color: rgba(50, 50, 50, 1);
+    -fx-background-radius: 5px;
+    -fx-border-color: #D3D3D3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-max-width: 500px;
+    -fx-translate-x: 35px;
+}
+
+.textarea-input-field:focused {
+    -fx-border-color: white;
+    -fx-background-color: rgba(120, 120, 120, 0.6);
+}
+
+.textarea-input-field .text {
+    -fx-prompt-text-fill: #A9A9A9;
+}
+
+.textarea-input-field .content {
+    -fx-background-color: rgba(50, 50, 50, 1) ;
+}
+
+.finalize-button {
+    -fx-padding: 12px 25px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-background-color: rgba(50, 50, 50, 1);
+    -fx-font-size: 18px;
+    -fx-font-weight: BOLD;
+    -fx-background-radius: 30px;
+    -fx-translate-x: 30px;
+    -fx-translate-y: 35px;
+}
+
+.finalize-button:hover {
+    -fx-background-color: rgba(100, 100, 100, 1);
+}
+
+.finalize-button:pressed{
+    -fx-background-color: rgba(200, 200, 200, 0.6);
+    -fx-effect: dropshadow(gaussian, black, 5, 0.5, 0, 0);
+}
+
+.select-image-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 4px;
+    -fx-border-color: #C0C0C0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-min-width: 70px;
+}
+
+.select-image-button:hover {
+    -fx-border-color: #A9A9A9;
+    -fx-background-color: rgba(100, 100, 100, 1);
+}
+
+.select-image-button:pressed {
+    -fx-background-color: rgba(176, 176, 176, 0.3);
+    -fx-effect: dropshadow(gaussian, black, 5, 0.5, 0, 0);
+}
+
+.tag-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+.tag-scroll {
+    -fx-background-color: #1e1e1e;
+    -fx-padding: 0 0 0 35px;
+    -fx-max-height: 65;
+}
+
+.tag-scroll .thumb {
+    -fx-background-color: rgba(255, 255, 255, 0.6);
+    -fx-background-radius: 10px;
+    -fx-pref-width: 9;
+}
+
+.tag-scroll .track {
+    -fx-background-color: rgba(0, 0, 0, 0.6);
+    -fx-background-radius: 10px;
+    -fx-pref-width: 9;
+}
+
+.tag-scroll .increment-button,
+.tag-scroll .decrement-button {
+    -fx-background-color: black;
+    -fx-border-color: black;
+    -fx-pref-width: 9;
+}
+
+.tag-label {
+    -fx-text-fill: white;
+    -fx-padding: 2 8 2 8;
+    -fx-border-insets: 5;
+    -fx-background-insets: 5;
+    -fx-background-color: rgba(196, 196, 196, 0.4);
+    -fx-background-radius: 3;
+    -fx-border-color: #C0C0C0;
+    -fx-border-width: 1;
+    -fx-border-radius: 3;
+    -fx-font-size: 14;
+    -fx-font-family: sans-serif;
+}
+
+.add-tags-button {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-color: rgba(100, 100, 100, 1);
+    -fx-background-insets: 3 5 5 5;
+    -fx-background-radius: 5;
+    -fx-translate-y: 11;
+    -fx-translate-x: -3;
+}
+
+.no-tags {
+    -fx-text-fill: white;
+    -fx-font-size: 12;
+    -fx-padding: 10 0 0 0;
+}
+
+.add-tags-button:hover {
+    -fx-background-color: rgba(0, 160, 255, 0.8);
+}
+
+/* tag selection popup */
+.popup {
+    -fx-background-color: #1e1e1e;
+    -fx-min-width: 600;
+    -fx-min-height: 470;
+    -fx-padding: 20;
+}
+
+.applied-tags-section {
+    -fx-min-width: 235;
+    -fx-padding: 0 0 0 10;
+}
+
+.tag-selection-section {
+    -fx-min-width: 235;
+}
+
+.list-view {
+    -fx-background-color: #303030;
+    -fx-border-color: #303030;
+    -fx-padding: 5;
+    -fx-cell-horizontal-margin: 5;
+
+}
+
+.list-view .cell:empty{
+    -fx-background-color: transparent;
+}
+
+.list-view .cell{
+    -fx-background-color: rgba(100, 100, 100, 0.7);
+    -fx-background-insets: 4 0 4 0;
+    -fx-background-radius: 3;
+    -fx-padding: 5;
+    -fx-text-fill: white;
+    -fx-font-size: 14;
+    -fx-pref-height: 30;
+}
+
+.list-view .scroll-bar {
+    -fx-background-color: #2e2e2e;
+}
+
+.list-view .scroll-bar .thumb {
+    -fx-background-color: #555555;
+    -fx-background-radius: 5;
+}
+
+.list-view .scroll-bar .track {
+    -fx-background-color: #3a3a3a;
+}
+
+.list-view .scroll-bar .increment-button,
+.list-view .scroll-bar .decrement-button {
+    -fx-background-color: #2e2e2e;
+}
+
+.list-cell {
+    -fx-background-color: #303030;
+}
+
+.tag-input-field {
+    -fx-background-color: rgba(50, 50, 50, 1);
+    -fx-background-radius: 5px;
+    -fx-border-color: #D3D3D3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-translate-y: 10px;
+    -fx-pref-width: 200px;
+}
+
+.tag-input-field:focused {
+    -fx-border-color: white;
+    -fx-background-color: rgba(120, 120, 120, 0.6);
+}
+
+.tag-input-field .text-field {
+    -fx-prompt-text-fill: #A9A9A9;
+    -fx-background-radius: 5px;
+}
+
+.popup-label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 10 0 20 0;
+}
+
+.tags-container-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+.tags-container-scroll {
+    -fx-background-color: #303030;
+    -fx-padding: 10;
+    -fx-pref-height: 400;
+    -fx-max-height: 400;
+}
+
+.tags-container-scroll .thumb {
+    -fx-background-color: rgba(255, 255, 255, 0.6);
+    -fx-background-radius: 10px;
+    -fx-pref-width: 9px;
+}
+
+.tags-container-scroll .track {
+    -fx-background-color: rgba(0, 0, 0, 0.6);
+    -fx-background-radius: 10px;
+    -fx-pref-width: 9px;
+}
+
+.tags-container-scroll .increment-button,
+.tags-container-scroll .decrement-button {
+    -fx-background-color: black;
+    -fx-border-color: black;
+    -fx-pref-width: 9;
+}
+
+.toggle-tag {
+    -fx-background-color: transparent;
+    -fx-background-radius: 4px;
+    -fx-border-color: #C0C0C0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-pref-width: 210px;
+    -fx-alignment: center-left;
+}
+
+.toggle-tag:hover {
+    -fx-border-color: #A9A9A9;
+}
+
+.delete-tag {
+    -fx-font-size: 20px;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-pref-width: 30px;
+    -fx-padding: 0 0 1 0;
+}
+
+.delete-tag:hover {
+    -fx-border-color: #e34141;
+    -fx-border-radius: 4px;
+}

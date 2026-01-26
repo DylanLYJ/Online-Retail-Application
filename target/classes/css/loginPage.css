@@ -1,0 +1,80 @@
+.signup-section {
+    -fx-background-color: #D9EAFD;
+    -fx-background-radius: 12px;
+    -fx-padding: 20px
+}
+
+.login-section {
+    -fx-background-color: #D9EAFD;
+    -fx-background-radius: 12px;
+    -fx-padding: 20px;
+}
+
+.about-section {
+    -fx-padding: 20px
+}
+
+.full-panel {
+    -fx-background-color: #BCCCDC;
+    -fx-background-radius: 12px;
+}
+
+.header {
+    -fx-font-family: 'Segoe UI';
+    -fx-font-size: 25px;
+    -fx-text-fill: #27548A;
+    -fx-padding: 10 0 0 0;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.normal-label {
+    -fx-font-family: 'Segoe UI';
+    -fx-font-size: 16px;
+    -fx-text-fill: #27548A;
+    -fx-padding: 5 0 0 0;
+    -fx-font-weight: bold;
+}
+
+.clickable-label {
+    -fx-font-family: 'Segoe UI';
+    -fx-font-size: 12px;
+    -fx-text-fill: #0000EE;
+    -fx-padding: 0 0 10 0;
+    -fx-underline: true;
+}
+
+.clickable-label:hover {
+    -fx-font-weight: bold;
+}
+
+.image-label {
+    -fx-font-family: 'Segoe UI';
+    -fx-font-size: 16px;
+    -fx-text-fill: #27548A;
+    -fx-padding: 0 0 0 0;
+    -fx-alignment: center;
+}
+
+.error-message {
+    -fx-font-family: 'Segoe UI';
+    -fx-font-size: 10px;
+    -fx-text-fill: red;
+    -fx-padding: 0 0 0 0;
+}
+
+.button {
+    -fx-font-family: 'Segoe UI';
+    -fx-font-size: 16px;
+    -fx-text-fill: #D9EAFD;
+    -fx-font-weight: BOLD;
+    -fx-background-color: linear-gradient(to bottom right, #134B70, #201E43);
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(to bottom right, #0D3B5A, #1A1432);;
+}
+
+.item1 {
+    -fx-alignment: center;
+}

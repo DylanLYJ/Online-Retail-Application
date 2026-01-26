@@ -1,0 +1,105 @@
+* {
+    -fx-font-family: "sans-serif";
+}
+
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-padding: 10px 25px;
+}
+
+.page-title {
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+    -fx-font-weight: BOLD;
+    -fx-padding: 15px 0 0px 8px;
+}
+
+.check-box {
+    -fx-background-color: #333333;
+    -fx-border-color: #777777;
+    -fx-border-width: 2px;
+    -fx-background-radius: 5px;
+    -fx-translate-x: 7px;
+}
+
+.check-box.check-mark {
+    -fx-fill: black;
+}
+
+.user-filter-box {
+    -fx-background-color: transparent;
+    -fx-border-color: #E1E1E1;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-translate-y: -3;
+}
+
+.user-filter-box .cell:selected {
+    -fx-text-fill: white;
+}
+
+.user-filter-box:hover {
+    -fx-background-color: rgba(176, 176, 176, 0.3);
+    -fx-text-fill: white;
+}
+
+.user-filter-box .list-view {
+    -fx-background-color: #1e1e1e;
+    -fx-border-radius: 5px;
+}
+
+.user-filter-box .list-view .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: WHITE;
+}
+
+.user-filter-box .list-view .list-cell:hover {
+    -fx-background-color: rgba(176, 176, 176, 0.3);
+}
+
+.user-filter-box .list-view .list-cell:filled:selected {
+    -fx-background-color: rgba(176, 176, 176, 0.6);
+    -fx-text-fill: white;
+}
+
+.search-bar {
+    -fx-background-color: rgba(50, 50, 50, 1);
+    -fx-background-radius: 20px;
+    -fx-border-color: #D3D3D3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 20px;
+    -fx-padding: 0 10px;
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-text-fill: white;
+    -fx-pref-width: 250px;
+    -fx-pref-height: 25px;
+}
+
+.search-bar:focused {
+    -fx-border-color: white;
+    -fx-background-color: rgba(120, 120, 120, 0.6);
+}
+
+.action-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 4px;
+    -fx-border-color: #C0C0C0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-min-width: 70px;
+}
+
+.action-button:hover {
+    -fx-border-color: #A9A9A9;
+    -fx-background-color: rgba(100, 100, 100, 1);
+}
+
+.action-button:pressed {
+    -fx-background-color: rgba(176, 176, 176, 0.3);
+    -fx-effect: dropshadow(gaussian, black, 5, 0.5, 0, 0);
+}

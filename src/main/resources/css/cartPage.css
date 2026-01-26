@@ -1,0 +1,206 @@
+* {
+    -fx-font-family: "sans-serif";
+}
+
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-padding: 10px 25px;
+}
+
+.page-title {
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+    -fx-font-weight: BOLD;
+    -fx-padding: 15px 0 0 35px;
+}
+
+.list-view {
+    -fx-background-color: #1e1e1e;
+    -fx-border-color: #1e1e1e;
+    -fx-padding: 5px;
+}
+
+.list-view .scroll-bar {
+    -fx-background-color: #383838;
+}
+
+.list-view .scroll-bar .thumb {
+    -fx-background-color: #555555;
+    -fx-background-radius: 5;
+}
+
+.list-view .scroll-bar .track {
+    -fx-background-color: #383838;
+}
+
+.list-view .scroll-bar .increment-button,
+.list-view .scroll-bar .decrement-button {
+    -fx-background-color: #383838;
+}
+
+.list-cell {
+    -fx-background-color: #1e1e1e;
+}
+
+.product-tile {
+    -fx-background-color: #1e1e1e;
+    -fx-border-color: rgba(128, 128, 128, 1) transparent rgba(128, 128, 128, 1) transparent;
+    -fx-border-width: 2px 0 2px 0;
+    -fx-padding: 15px;
+}
+
+.add-quantity-button {
+    -fx-text-fill: white;
+    -fx-background-color: rgba(176, 176, 176, 0.3);
+    -fx-font-weight: BOLD;
+    -fx-font-size: 18px;
+    -fx-border-color: transparent;
+    -fx-pref-width: 40px;
+    -fx-pref-height: 30px;
+    -fx-translate-x: 55px;
+}
+
+.add-quantity-button:hover {
+    -fx-background-color: rgba(176, 176, 176, 0.6);
+}
+
+.remove-quantity-button {
+    -fx-text-fill: white;
+    -fx-background-color: rgba(176, 176, 176, 0.3);
+    -fx-font-weight: BOLD;
+    -fx-font-size: 18px;
+    -fx-border-color: transparent;
+    -fx-pref-width: 40px;
+    -fx-pref-height: 30px;
+    -fx-translate-x: 45px;
+}
+
+.remove-quantity-button:hover {
+    -fx-background-color: rgba(176, 176, 176, 0.6);
+}
+
+.product-quantity-field {
+    -fx-alignment: CENTER;
+    -fx-background-color: rgba(50, 50, 50, 1);
+    -fx-background-radius: 5px;
+    -fx-border-color: #D3D3D3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 0px 10px;
+    -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-text-fill: white;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 40px;
+    -fx-translate-x: 50px;
+}
+
+.remove-from-cart-button {
+    -fx-background-color: rgba(50, 50, 50, 1);
+    -fx-background-radius: 2px;
+    -fx-border-color: #C0C0C0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 2px;
+    -fx-font-size: 16px;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+    -fx-translate-x: 35px;
+}
+
+.remove-from-cart-button:hover {
+    -fx-background-color: rgba(100, 100, 100, 1);
+    -fx-border-color: #A9A9A9;
+}
+
+.product-name {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: BOLD;
+    -fx-padding: 0px 0 0 35px;
+}
+
+.product-price {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 0 45px 35px;
+}
+
+.product-total {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-padding: 15px 0 0 35px;
+    -fx-translate-x: 50px;
+}
+
+.purchase-box {
+    -fx-min-height: 100px;
+}
+
+.purchase-button {
+    -fx-text-fill: white;
+    -fx-background-color: rgba(50, 50, 50, 1);
+    -fx-font-size: 18px;
+    -fx-font-weight: BOLD;
+    -fx-background-radius: 30px;
+    -fx-background-insets: 25px 0 25px 0;
+    -fx-padding: 0 150px 0 0;
+}
+
+.purchase-button:hover {
+    -fx-background-color: rgba(100, 100, 100, 1);
+    }
+
+.purchase-button:pressed {
+    -fx-background-color: rgba(200, 200, 200, 0.6);
+    -fx-effect: dropshadow(gaussian, black, 5, 0.5, 0, 0);
+}
+
+.total-purchase {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 15px 0 0 35px;
+}
+
+.no-item-warning {
+    -fx-text-fill: red;
+    -fx-alignment: center;
+    -fx-font-size: 13px;
+    -fx-translate-x: -80px;
+}
+
+.notif-panel {
+    -fx-background-color: rgba(50, 50, 50, 1);
+    -fx-padding: 15px;
+}
+
+.notif-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 4px;
+    -fx-border-color: #C0C0C0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-min-width: 70px;
+}
+
+.notif-button:hover {
+    -fx-border-color: #A9A9A9;
+    -fx-background-color: rgba(100, 100, 100, 1);
+}
+
+.notif-label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.invalid-product {
+    -fx-translate-x: 35px;
+    -fx-text-fill: red;
+    -fx-font-size: 14px;
+    -fx-translate-y: 5px;
+}

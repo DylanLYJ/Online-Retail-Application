@@ -1,0 +1,37 @@
+* {
+    -fx-font-family: "sans-serif";
+}
+
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-padding: 10px 25px;
+}
+
+.page-title {
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+    -fx-font-weight: BOLD;
+    -fx-padding: 15px 0 0px 8px;
+}
+
+.action-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 4px;
+    -fx-border-color: #C0C0C0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-min-width: 70px;
+}
+
+.action-button:hover {
+    -fx-border-color: #A9A9A9;
+    -fx-background-color: rgba(100, 100, 100, 1);
+}
+
+.action-button:pressed {
+    -fx-background-color: rgba(176, 176, 176, 0.3);
+    -fx-effect: dropshadow(gaussian, black, 4, 0.4, 0, 0);
+}

@@ -1,0 +1,101 @@
+* {
+    -fx-font-family: "sans-serif";
+}
+
+.root {
+    -fx-background-color: #121212;
+    -fx-text-fill: #E0E0E0;
+    -fx-spacing: 5px;
+    -fx-padding: 10px 0px;
+    -fx-pref-width: 270px;
+}
+
+.main-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-color: transparent;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 18px;
+    -fx-font-family: sans-serif;
+    -fx-alignment: center-left;
+}
+
+.main-button:hover {
+    -fx-background-color: rgba(176, 176, 176, 0.3);
+    -fx-background-radius: 4px;
+    -fx-background-insets: 3px 10px;
+    -fx-padding: 10px 30px;
+}
+
+#admin-panel {
+    -fx-background-color: #3E3E3E;
+    -fx-border-radius: 15px;
+    -fx-background-insets: 0 15px;
+}
+
+.admin-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: WHITE;
+    -fx-border-color: transparent;
+    -fx-padding: 10px 20px 10px 30px;
+    -fx-font-size: 14;
+    -fx-font-family: sans-serif;
+    -fx-alignment: center-left;
+}
+
+.admin-button:hover {
+    -fx-background-color: rgba(176, 176, 176, 0.3);
+    -fx-background-radius: 4;
+    -fx-background-insets: 3 15;
+    -fx-padding: 10 30;
+}
+
+#user-panel {
+    -fx-background-color: #2A2A2A;
+    -fx-border-radius: 8px;
+    -fx-text-fill: white;
+}
+
+.menu-item {
+    -fx-font-size: 15px;
+    -fx-font-family: sans-serif;
+    -fx-text-fill: white;
+}
+
+.menu-item:focused {
+    -fx-background-color: rgba(176, 176, 176, 0.6);
+    -fx-padding: 10px 30px;
+    -fx-font-size: 17px;
+}
+
+.menu-item .label {
+    -fx-text-fill: white;
+}
+
+.highlight-background {
+    -fx-background-color: rgba(176, 176, 176, 0.6);
+    -fx-background-radius: 4px;
+    -fx-background-insets: 3px 10px;
+    -fx-padding: 10px 30px;
+}
+
+.highlight-background-padding {
+    -fx-background-color: rgba(176, 176, 176, 0.6);
+    -fx-background-radius: 4px;
+    -fx-background-insets: 3px 15px;
+    -fx-padding: 10px 30px;
+}
+
+.hide-SideBarButton {
+    -fx-pref-width: 30px;
+    -fx-pref-height: 30px;
+    -fx-font-size: 18px;
+    -fx-background-insets: 3px 0 3px 0;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+}
+
+.hide-SideBarButton:hover {
+    -fx-background-color: rgba(176, 176, 176, 0.6);
+}
